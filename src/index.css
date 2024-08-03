@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.buttons-box {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.buttons-box button {
+  margin-bottom: 0.5rem;
+}
+
+.notifications-box ul {
+  margin-top: 0.5rem;
+  list-style-type: none;
+}
+
+.notifications-box ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.un-read {
+  background-color: rgb(210, 91, 91);
+  color: #fff;
+  border: none !important;
+}
